@@ -1,0 +1,14 @@
+{
+  "name": "frontend-practice-nft",
+  "scripts": {
+    "deploy": "npx hardhat compile && npx hardhat ignition deploy ignition/modules/BimkonEyes.js --network arbitrumSepolia --verify"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "5.0.0",
+    "@openzeppelin/contracts": "4.6.0",
+    "erc721a": "4.1.0",
+    "dotenv": "16.4.5",
+    "ethers": "6.13.2",
+    "hardhat": "2.22.10"
+  }
+}
